@@ -60,6 +60,12 @@ public class SwagLabLoginTest
 		swagLabLoginPage.clickLoginButton();
 	}
 	
+	@Test
+	public void gitDemo()
+	{
+		System.out.println("Git demo trial");
+	}
+	
 	@AfterMethod
 	public void closeBrowser()
 	{
